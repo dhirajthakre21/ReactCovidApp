@@ -1,28 +1,28 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 30vmin;
   pointer-events: none;
 }
-
+h1 {
+	font-family: 'Bangers', cursive;
+    font-family: 'Cinzel', serif;
+	text-shadow: 2px 2px 7px #FF00CC ;
+}
+td {
+	font-family: 'Bangers', cursive;
+    font-family: 'Cinzel', serif;
+	font-weight : 500 ; 
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
 .App-link {
   color: #61dafb;
@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+
+.footer {
+	margin-top : 100px ; 
+	background-color : #6699FF ; 
+}
+.btn {
+	font-weight : 500 ; 
+}
+
