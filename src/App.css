@@ -10,7 +10,7 @@
 h1 {
 	font-family: 'Bangers', cursive;
     font-family: 'Cinzel', serif;
-	text-shadow: 2px 2px 7px #FF00CC ;
+
 }
 td {
 	font-family: 'Bangers', cursive;
@@ -41,8 +41,12 @@ td {
 .footer {
 	margin-top : 100px ; 
 	background-color : #6699FF ; 
+
 }
 .btn {
 	font-weight : 500 ; 
 }
-
+#chart {
+	height : 800px ;
+	
+}
